@@ -31,7 +31,7 @@ El objetivo es automatizar el proceso de solicitud de vacaciones mediante un cha
 
 ## Autor
 
-Curell Dario
-Comision n°22
+- Curell Dario
+- Comision n°22
 
 Trabajo Final Integrador - TUP
