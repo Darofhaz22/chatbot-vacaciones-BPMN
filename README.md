@@ -30,7 +30,8 @@ El objetivo es automatizar el proceso de solicitud de vacaciones mediante un cha
 6. La solicitud queda registrada.
 
 ## Autor
--Curell Dario
--Comision n°22
+
+Curell Dario
+Comision n°22
 
 Trabajo Final Integrador - TUP
