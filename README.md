@@ -6,6 +6,21 @@ Este proyecto corresponde al Trabajo Final Integrador de la carrera.
 
 El objetivo es automatizar el proceso de solicitud de vacaciones mediante un chatbot capaz de validar empleados, consultar saldo disponible y registrar solicitudes.
 
+## Objetivo
+
+El objetivo de este proyecto es modelar y automatizar el proceso de solicitud de vacaciones mediante un chatbot, utilizando BPMN 2.0, una base de datos simulada en Excel y una máquina de estados para controlar el flujo de la conversación.
+
+## Flujo del proceso
+
+1. El usuario ingresa su legajo.
+2. El sistema verifica si el empleado existe.
+3. Se consulta el saldo de vacaciones disponible.
+4. El usuario ingresa la fecha de inicio.
+5. El usuario indica la cantidad de días solicitados.
+6. El sistema valida la información.
+7. La solicitud se registra.
+8. Se informa el resultado al usuario.
+
 ## Tecnologías Propuestas
 
 - Python
