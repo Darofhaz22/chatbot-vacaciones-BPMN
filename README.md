@@ -15,14 +15,9 @@ El objetivo es automatizar el proceso de solicitud de vacaciones mediante un cha
 
 ## Estructura del Proyecto
 
-- BPMN
-- BaseDatos
-- Documentacion
-- Codigo
-
-'''text
+```text
 TFI_Chatbot_Vacaciones/
-|
+│
 ├── BPMN/
 ├── BaseDatos/
 │   └── empleados.xlsx
@@ -31,7 +26,7 @@ TFI_Chatbot_Vacaciones/
 ├── Documentacion/
 │   └── TFI_Chatbot_Vacaciones.pdf
 └── README.md
-'''
+```
 
 ## Funcionamiento
 
