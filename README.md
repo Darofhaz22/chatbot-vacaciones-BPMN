@@ -21,6 +21,43 @@ El objetivo de este proyecto es modelar y automatizar el proceso de solicitud de
 7. La solicitud se registra.
 8. Se informa el resultado al usuario.
 
+## Máquina de Estados
+
+INICIO
+↓
+ESPERANDO_LEGAJO
+↓
+VALIDANDO_LEGAJO
+↓
+CONSULTANDO_SALDO
+↓
+ESPERANDO_FECHA
+↓
+ESPERANDO_DIAS
+↓
+VALIDANDO_SOLICITUD
+↓
+REGISTRANDO_SOLICITUD
+↓
+ENVIANDO_CONFIRMACION
+↓
+FINALIZADO
+
+## Casos contemplados
+
+- Legajo inexistente.
+- Saldo insuficiente.
+- Fecha inválida.
+- Texto en lugar de números.
+- Cancelación de la operación.
+
+## Decisiones del proceso (Gateways)
+
+- ¿Empleado existe?
+- ¿Tiene saldo suficiente?
+
+Estas decisiones se encuentran representadas en el BPMN y son validadas por la lógica del chatbot.
+
 ## Tecnologías Propuestas
 
 - Python
@@ -42,6 +79,13 @@ TFI_Chatbot_Vacaciones/
 │   └── TFI_Chatbot_Vacaciones.pdf
 └── README.md
 ```
+
+## Despliegue
+
+1. Descargar el proyecto.
+2. Abrir el archivo empleados.xlsx ubicado en la carpeta BaseDatos.
+3. Ejecutar el archivo chatbot.py ubicado en la carpeta Codigo.
+4. Seguir las instrucciones mostradas por el sistema.
 
 ## Funcionamiento
 
